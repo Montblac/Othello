@@ -1,4 +1,3 @@
-# Samuel Leyva 54565096
 # Othello Game Logic
 
 class Opening:
