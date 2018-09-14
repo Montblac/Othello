@@ -1,9 +1,9 @@
 # GUI
 
-import math
+#import math
 import tkinter
 import logic
-from win32api import GetSystemMetrics
+#from win32api import GetSystemMetrics
 
 defaultFont = ('Calibri', 18)
 color = '#BAB8B8'
@@ -14,8 +14,8 @@ class OptionWindow:
         self.optionWindow.title('Settings')
         self.optionWindow.configure(background = '#BAB8B8')
 
-        print("Width =", GetSystemMetrics(0))
-        print("Height =", GetSystemMetrics(1))
+        #print("Width =", GetSystemMetrics(0))
+        #print("Height =", GetSystemMetrics(1))
 
         w = 400 #280
         h = 300 #230
